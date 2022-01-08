@@ -7,12 +7,9 @@ const serviceAccount: ServiceAccount = {
     privateKey: process.env.FIREBASE_PRIVATE_KEY,
 };
 
-console.log(serviceAccount);
-
 if (admin.apps.length === 0) {
     admin.initializeApp({ credential: admin.credential.cert(serviceAccount as ServiceAccount) });
 }
-
 
 const db = admin.firestore();
 const getNote = async (publicId: string): Promise<Result<Note>> => {
@@ -29,7 +26,6 @@ const getNote = async (publicId: string): Promise<Result<Note>> => {
 }
 
 export async function get({ params }) {
-    console.log(process.env);
     const result = await getNote(params.publicId);
     return {
         body: result

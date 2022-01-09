@@ -35,7 +35,7 @@
 			<a class="link" href="https://tailwindcss.com">TailwindCSS</a>
 			and <a class="link" href="https://firebase.google.com">Firebase</a>. If you want to look into
 			the source code, here's the
-			<a href="https://github.com/shajidhasan/rknotes-landing">GitHub repository</a>.
+			<a class="link" href="https://github.com/shajidhasan/rknotes-landing">GitHub repository</a>.
 		</p>
 		<div class="space-x-2 mt-6">
 			<a

@@ -1,38 +1,19 @@
-# create-svelte
+# RKNotes
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
+RKNotes is a note taking app. I built this for myself, but anyone can use it. This app is split into two parts.
+* The app - https://app.rknotes.xyz
+* And the landing page - https://rknotes.xyz
 
-## Creating a project
+You're now in the repository that contains the landing page, as well as the logic for showing 'shared notes'. The actual app repository is [here](https://github.com/shajidhasan/rknotes-app).
 
-If you're seeing this, you've probably already done this step. Congrats!
+The reason it's divided into two parts is: the application part doesn't require any server side rendering. I used Svelte for creating an interactive UI. However, the landing page should have SSR. If someone generates a link for a note, that should also be server side rendered. That's why I decided to create another repository with SvelteKit this time, an awesome Svelte framework.
 
-```bash
-# create a new project in the current directory
-npm init svelte@next
+I could probably only use SvelteKit for this, since you can actually specify which pages should render on server. But this project was done in such a short amount of time so I went with whatever seemed easy to me.
 
-# create a new project in my-app
-npm init svelte@next my-app
-```
+Stuff used to make this happen:
+* [Svelte](https://svelte.dev) + [SvelteKit](https://kit.svelte.dev)
+* [TailwindCSS](https://tailwindcss.com)
+* [TOAST UI Editor](https://github.com/nhn/tui.editor)
+* [Firebase](https://firebase.google.com)
 
-> Note: the `@next` is temporary
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-Before creating a production version of your app, install an [adapter](https://kit.svelte.dev/docs#adapters) for your target environment. Then:
-
-```bash
-npm run build
-```
-
-> You can preview the built app with `npm run preview`, regardless of whether you installed an adapter. This should _not_ be used to serve your app in production.
+Thanks for taking a look!

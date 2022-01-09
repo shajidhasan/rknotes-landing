@@ -61,7 +61,7 @@
 					class="font-semibold underline decoration-primary-600">RKNotes</span
 				>
 				ASAP. In the meantime, you can help by submitting an issue in this
-				<a href="https://github.com/shajidhasn/rknotes" class="link">GitHub repo</a>.
+				<a href="https://github.com/shajidhasn/rknotes-landing" class="link">GitHub repo</a>.
 				<a href="/" class="link">Click here</a> to go back to the homepage.
 			{/if}
 		</p>

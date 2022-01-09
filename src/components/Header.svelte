@@ -21,7 +21,7 @@
 			</h1>
 		</a>
 		<div class="flex flex-row">
-			<a href="/about" class="text-primary-600">About</a>
+			<!-- <a href="/about" class="text-primary-600">About</a> -->
 		</div>
 	</div>
 </header>

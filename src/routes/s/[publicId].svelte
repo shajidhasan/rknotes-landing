@@ -34,7 +34,7 @@
 	openGraph={{
 		title: note.name,
 		description: `A note shared by ${note.creator}.`,
-		images: [{ url: 'open-graph.png', alt: 'RKNotes', height: 742, width: 1200 }]
+		images: [{ url: '/open-graph.png', alt: 'RKNotes', height: 742, width: 1200 }]
 	}}
 />
 

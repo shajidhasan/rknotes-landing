@@ -43,7 +43,7 @@
 	<title>{note.name} - {note.creator}</title>
 </svelte:head>
 
-<div class="container mx-auto px-3 py-3 sm:px5 sm:py-5 md:px-12 lg:px-24 xl:px-48 flex flex-col">
+<div class="container mx-auto px-3 py-3 sm:px-5 sm:py-5 md:px-12 lg:px-24 xl:px-48 flex flex-col">
 	<div class="mt-4 mb-1">
 		<h1
 			class="text-center text-lg md:text-xl lg:text-2xl xl:text-3xl font-semibold text-slate-700 line-clamp-1"

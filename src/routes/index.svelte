@@ -23,7 +23,7 @@
 	<div class="lg:flex-[2] w-2/3 p-5 lg:p-10">
 		<HeroImage />
 	</div>
-	<div class="lg:flex-[3] flex flex-col justify-center p-5 lg:p-20">
+	<div class="lg:flex-[3] flex flex-col justify-center p-5 pb-10 lg:p-20">
 		<h1 class="text-5xl text-slate-700 font-semibold">Take and share notes. In markdown.</h1>
 		<p class="text-xl text-slate-600 mt-6 leading-relaxed">
 			<span class="font-semibold underline decoration-primary-600">RKNotes</span> makes it easy for

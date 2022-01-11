@@ -31,7 +31,11 @@
 <SvelteSeo
 	title={note.name}
 	description={`A note shared by ${note.creator}.`}
-	openGraph={{ title: note.name, description: `A note shared by ${note.creator}.` }}
+	openGraph={{
+		title: note.name,
+		description: `A note shared by ${note.creator}.`,
+		images: [{ url: 'open-graph.png', alt: 'RKNotes' }]
+	}}
 />
 
 <svelte:head>

@@ -11,7 +11,7 @@
 		description:
 			'RKNotes makes it easy for you to take and edit your notes. All in markdown! If you want, you can generate links to your notes as well, making them available for everyone.',
 		url: 'https://rknotes.xyz',
-		images: [{ url: 'open-graph.png', alt: 'RKNotes' }]
+		images: [{ url: 'open-graph.png', alt: 'RKNotes', height: 742, width: 1200 }]
 	}}
 />
 

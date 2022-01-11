@@ -24,6 +24,7 @@
 	export let note: Note;
 
 	let converter = new showdown.Converter();
+	converter.setOption('simpleLineBreaks', true);
 
 	let noteHtml = sanitizeHtml(converter.makeHtml(note.data));
 </script>

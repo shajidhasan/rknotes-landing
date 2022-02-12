@@ -19,7 +19,7 @@
 	<title>RKNotes - Take and Share Notes With Ease</title>
 </svelte:head>
 
-<div class="container mx-auto flex flex-col items-center lg:flex-row">
+<div class="container mx-auto flex flex-col items-center lg:flex-row selection:bg-primary-600 selection:text-white">
 	<div class="lg:flex-[2] w-2/3 p-5 lg:p-10">
 		<HeroImage />
 	</div>
